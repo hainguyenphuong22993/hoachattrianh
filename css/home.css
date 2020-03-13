@@ -8,7 +8,6 @@
 }
 #header{
     margin-top: 20px;
-    padding-bottom: 25px;
 }
 #logo img{
     width: 150px;
@@ -56,7 +55,7 @@
 #menu{
     background: #2980b9;
     border-radius: 3px 3px 0 0;
-    padding: 0 30px;
+    padding: 0 60px;
 }
 #menu a{
     text-decoration: none;
@@ -74,13 +73,23 @@
     position: relative;
     float: left;
 }
+#menu ul li:hover{
+    background: #1190e4;
+}
 .navbar{
     padding: 0;
 }
 #category{
     background: #1190e4;
 }
+#category:hover .sm-1, #news:hover .sm-2{
+    display: inline-block;
+}
+.sub-menu li:hover a{
+    font-weight: 700 !important;
+}
 .sub-menu{
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -90,4 +99,119 @@
     background: #1190e4;
     width: 212px;
     height: auto;
+}
+.sub-menu li{
+    border-top: 1px dashed #fff;
+    width: 100%;
+}
+.sub-menu li a{
+    font-weight: 400 !important;
+}
+.bd-none{
+    border: none !important;
+}
+.active{
+    background: #1190e4;
+}
+#search{
+    background: #1190e4;
+    color: #fff;
+    font-weight: 700;
+}
+#introduce{
+    margin-top: 100px;
+    position: relative;
+}
+#introduce h2, #products h2, #the-news h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+#introduce hr, #products hr, #the-news hr{
+    width: 80px;
+    border: 1px solid #2980b9;
+    margin-bottom: 35px;
+}
+#intro a{
+    display: inline-block;
+    margin-left: 75%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+#products{
+    margin-top: 100px;
+}
+#products h4, #the-news h4{
+    text-align: center;
+}
+#products h4 a, #the-news h4 a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#products p{
+    text-align: center;
+}
+#products p span{
+    color: red;
+    font-weight: 700;
+}
+#the-news{
+    margin-top: 100px;
+}
+#the-news h4{
+    background: #2980b9;
+}
+#the-news h4 a{
+    color: #fff;
+}
+#partner{
+    margin-top: 100px;
+}
+#partner h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+#footer-top{
+    margin-top: 30px;
+    background: #eee;
+}
+#footer-top img{
+    width: 200px;
+    height: auto;
+}
+#logo-f, #address, #phone{
+    margin-top: 20px;
+}
+#address, #phone{
+    padding-top: 30px;
+}
+#address hr, #phone hr{
+    background: #333;
+}
+#address h3, #phone h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+#address p, #phone p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+#Footer-bot{
+    background: #000;
+}
+#Footer-bot p{
+    height: 30px;
+    line-height: 50px;
+    float: left;
+}
+#Footer-bot img{
+    width: 100px;
+    height: auto;
+    margin: 5px 0 0 30px;
 }
